@@ -22,7 +22,6 @@
   display: flex;
   gap: 20px;
   justify-content: center;
-  overflow-x: auto;
   scroll-snap-type: x mandatory;
   padding-bottom: 20px;
   width: 100%;

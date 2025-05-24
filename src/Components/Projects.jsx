@@ -6,6 +6,7 @@ import projectimage1 from "../Assets/Aptech_Appliaction_Screens.png";
 import projectimage2 from "../Assets/Car_Website.png";
 import projectimage3 from "../Assets/MyPortfolio.png";
 import projectimage4 from "../Assets/quote.png";
+import projectimage5 from "../Assets/DigiLawyer-1.png";
 
 function Projects() {
   const scrollRef = useRef(null);
@@ -51,6 +52,14 @@ function Projects() {
       description:
         "Built a Random Quote Generator using API integration...",
       Link: "https://github.com/Mr-UsmanKhalid/Random-Quote-App",
+    },
+    {
+      id: 5,
+      image: projectimage5,
+      title: "DigiLawyer",
+      description:
+        "DigiLawyer is a legal website that provides legal services to users...",
+      Link: "https://github.com/Mr-UsmanKhalid/DigiLawyer", 
     },
   ];
 

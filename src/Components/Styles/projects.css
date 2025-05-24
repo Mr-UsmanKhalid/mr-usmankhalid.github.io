@@ -154,7 +154,7 @@
 /* Responsive adjustments */
 
 /* 1024px: Show 3 cards (same as default desktop) */
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .Project-container {
     display: flex;
     justify-content: center;
@@ -162,7 +162,7 @@
   }
 
   .carousel-wrapper {
-    max-width: 880px; /* 3 cards (280px * 3 + 15px * 2 gaps) */
+    max-width: 820px; /* 3 cards (280px * 3 + 15px * 2 gaps) */
   }
 
   .Project-grid {
@@ -172,6 +172,37 @@
 
   .card {
     scroll-snap-align: start; /* Snap to the start of each card */
+    width: 250px;
+  }
+
+  .scroll-btn.left {
+    left: -20px;
+  }
+
+  .scroll-btn.right {
+    right: -10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-wrapper {
+    max-width: 820px; /* 3 cards (280px * 3 + 15px * 2 gaps) */
+  }
+
+  .Project-grid {
+    justify-content: flex-start; /* Start from the first card */
+    width: 880px; /* 3 cards */
+  }
+
+  .card {
+    scroll-snap-align: start; /* Snap to the start of each card */
+    width: 250px;
   }
 
   .scroll-btn.left {
@@ -197,11 +228,11 @@
 
   .Project-grid {
     justify-content: flex-start; /* Start from the first card */
-    width: 575px; /* 2 cards */
+    width: 520px; /* 2 cards */
   }
 
   .card {
-    width: 280px; /* Same card width */
+    width: 250px; /* Same card width */
     scroll-snap-align: start;
   }
 
@@ -270,12 +301,12 @@
 @media (max-width: 480px) {
   .Project-heading {
     font-size: 1.5rem;
-    margin: 15px 0 10px;
+    margin: 20px 0 15px;
   }
 
   .carousel-wrapper {
-    max-width: 220px; /* Adjust for smaller viewport */
-    padding: 0 5px;
+    max-width: 260px; /* Adjust for smaller viewport */
+    padding: 0 10px;
   }
 
   .Project-grid {
@@ -283,11 +314,11 @@
   }
 
   .card {
-    width: 200px; /* Smaller card width for tiny screens */
+    width: 240px; /* Smaller card width for tiny screens */
   }
 
   .card-image {
-    height: 140px; /* Smaller image height */
+    height: 160px; /* Smaller image height */
   }
 
   .card-content h1 {
@@ -304,7 +335,7 @@
   }
 
   .scroll-btn.left {
-    left: -25px; /* Even closer for smaller screens */
+    left: -10px; /* Even closer for smaller screens */
   }
 
   .scroll-btn.right {

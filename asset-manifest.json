@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.588704a7.css",
-    "main.js": "/static/js/main.b3781d4d.js",
+    "main.js": "/static/js/main.67268885.js",
     "static/media/Aptech_Appliaction_Screens.png": "/static/media/Aptech_Appliaction_Screens.5351984caf497958396b.png",
     "static/media/Texture.jpg": "/static/media/Texture.0810c899a0c98dda9c58.jpg",
     "static/media/Car_Website.png": "/static/media/Car_Website.5038c4dce7e305a650bc.png",
@@ -11,10 +11,10 @@
     "static/media/quote.png": "/static/media/quote.b87a0af2a98cf4d39ebd.png",
     "index.html": "/index.html",
     "main.588704a7.css.map": "/static/css/main.588704a7.css.map",
-    "main.b3781d4d.js.map": "/static/js/main.b3781d4d.js.map"
+    "main.67268885.js.map": "/static/js/main.67268885.js.map"
   },
   "entrypoints": [
     "static/css/main.588704a7.css",
-    "static/js/main.b3781d4d.js"
+    "static/js/main.67268885.js"
   ]
 }

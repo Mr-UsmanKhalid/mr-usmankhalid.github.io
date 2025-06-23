@@ -22,15 +22,15 @@ const Experience = () => {
       <ul>
         <li>
           <strong>DigiLawyer Landing Page:</strong> Developed a responsive legal tech landing page with clean layout and modern design.
-          <a href="#">View</a>
+          <a href="https://digilawyer-three.vercel.app/">Visit</a>
         </li>
         <li>
           <strong>Random Quote App:</strong> Built a functional quote generator app using HTML, CSS, and JavaScript.
-          <a href="#">View</a>
+          <a href="https://randomquoteapp-tan.vercel.app/">Visit</a>
         </li>
         <li>
           <strong>Car Web Design:</strong> Designed a sleek car-themed frontend interface showcasing modern UI principles.
-          <a href="#">View</a>
+          <a href="https://github.com/Mr-UsmanKhalid/Car-front-end-Web-Design">Visit</a>
         </li>
       </ul>
     </div>

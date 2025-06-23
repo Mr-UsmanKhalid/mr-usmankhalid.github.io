@@ -3,10 +3,10 @@ import Home from "./Home";
 import Skills from "./Skills";
 import About from "./About";
 import Projects from "./Projects";
+import Experience from "./Experience";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faHome, faCode, faBriefcase, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faCode, faBriefcase, faUser, faFile } from "@fortawesome/free-solid-svg-icons";
 import "./Styles/Navbar.css";
-
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [currentSection, setCurrentSection] = useState("Home");
@@ -15,6 +15,7 @@ const Navbar = () => {
   const sections = {
     Home: Home,
     Skills: Skills,
+    Experience: Experience,
     Projects: Projects,
     About: About,
   };
@@ -99,13 +100,19 @@ const Navbar = () => {
               <span>Skills</span>
             </a>
           </li>
+              <li className={currentSection === "Experience" ? "active" : ""} onClick={(e) => scrollToSection(e, "Experience")}>
+            <a href="#Experience">
+              <FontAwesomeIcon icon={faFile} />
+              <span>Experience</span>
+            </a>
+          </li>
           <li className={currentSection === "Projects" ? "active" : ""} onClick={(e) => scrollToSection(e, "Projects")}>
             <a href="#Projects">
               <FontAwesomeIcon icon={faBriefcase} />
               <span>Projects</span>
             </a>
           </li>
-          <li className={currentSection === "About" ? "active" : ""} onClick={(e) => scrollToSection(e, "About")}>
+             <li className={currentSection === "About" ? "active" : ""} onClick={(e) => scrollToSection(e, "About")}>
             <a href="#About">
               <FontAwesomeIcon icon={faUser} />
               <span>About</span>

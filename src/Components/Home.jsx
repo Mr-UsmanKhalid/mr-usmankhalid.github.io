@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./Styles/Home.css";
 import profile from "../Assets/user.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faInstagram, faLinkedinIn, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 function Home() {
   const roles = ["Front-End Developer", "App Developer"];
   const [text, setText] = useState("");
@@ -36,10 +38,10 @@ function Home() {
         <div className="btn-sci">
         <a href="https://drive.google.com/file/d/1kbHJ_E9qVGZUEbeNs9v4UT2FFNFg5BxS/view?usp=sharing"  target="blank" className="btn">Download Resume</a>
           <div className="sci">
-            <a href="https://github.com/Mr-UsmanKhalid" target="_blank"><i class="bx bxl-github"></i></a>&nbsp;&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/usman-khalid-21a656343/" target="_blank"><i class="bx bxl-linkedin"></i></a>&nbsp;&nbsp;&nbsp;
-            <a href="https://x.com/UsmanKhalid74" target="_blank"><i class="bx bxl-twitter"></i></a>&nbsp;&nbsp;&nbsp;
-            <a href="https://www.instagram.com/officalusman79/" target="_blank"><i class="bx bxl-instagram"></i></a>
+            <a href="https://github.com/Mr-UsmanKhalid" target="_blank"><FontAwesomeIcon  icon={faGithub}/></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/usman-khalid-21a656343/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://x.com/UsmanKhalid74" target="_blank"><FontAwesomeIcon icon={faXTwitter}/></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.instagram.com/officalusman79/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
           </div>
           
         </div>

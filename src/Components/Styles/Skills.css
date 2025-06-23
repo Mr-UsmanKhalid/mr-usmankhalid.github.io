@@ -6,7 +6,7 @@
   justify-content: center;
   background: rgb(12,41,96);
   padding: 20px;
-  min-height: 100vh; /* ⬅ allows it to grow if needed */
+  min-height: 100vh; 
   height: auto;
 }
 

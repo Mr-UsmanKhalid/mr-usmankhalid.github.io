@@ -2,11 +2,14 @@ import React, { useRef } from "react";
 import "./Styles/projects.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
+import projectimage0 from "../Assets/Personal_AI_Chat_Assistant.png";
 import projectimage1 from "../Assets/Aptech_Appliaction_Screens.png";
 import projectimage2 from "../Assets/Car_Website.png";
 import projectimage3 from "../Assets/MyPortfolio.png";
 import projectimage4 from "../Assets/quote.png";
 import projectimage5 from "../Assets/DigiLawyer-1.png";
+import projectimage6 from "../Assets/Aura_Watches.png";
+import projectimage7 from "../Assets/N8N_video_work_flow.png";
 
 function Projects() {
   const scrollRef = useRef(null);
@@ -21,6 +24,14 @@ function Projects() {
   };
 
   const projects = [
+    {
+      id: 1,
+      image: projectimage0,
+      title: "Personal AI Chat Assistant",
+      description:
+        "Create a Chat AI Assistant using Langchain with Python, LLMs, and Groq...",
+      Link: "https://mr-usmankhalid-ai-chat-assistant.streamlit.app/",
+    },
     {
       id: 1,
       image: projectimage1,
@@ -61,6 +72,20 @@ function Projects() {
         "DigiLawyer is a legal website that provides legal services to users...",
       Link: "https://github.com/Mr-UsmanKhalid/DigiLawyer", 
     },
+    {
+      id: 6,
+      image: projectimage6,
+      title: "Aura Watch E-Commerce",
+      description: "An e-commerce platform for luxury watches.",
+      Link: "https://aura-watches.vercel.app/",
+    },
+    {
+      id: 7,
+      image: projectimage7,
+      title: "Avatar Video Generator & YouTube Uploader",
+      description: "🧠 Avatar Video Generator & YouTube Uploader (n8n Workflow)",
+      Link: "https://github.com/Mr-UsmanKhalid/N8N_Avatar_Video_Generator",
+    }
   ];
 
   return (

@@ -34,7 +34,7 @@ function Home() {
       <h2>{text} |</h2>
 
         <div className="btn-sci">
-        <a href="https://drive.google.com/file/d/14pCBt8RdZLUz9RHBERXX4P4MlSi-dWJj/view?usp=sharing" target="blank" className="btn">Download Resume</a>
+        <a href="https://drive.google.com/file/d/105j4NTor4hdcQ-EhHp0iwXdLPiIlhpe9/view?usp=sharing" target="blank" className="btn">Download Resume</a>
           <div className="sci">
             <a href="https://github.com/Mr-UsmanKhalid" target="_blank"><i class="bx bxl-github"></i></a>&nbsp;&nbsp;&nbsp;
             <a href="https://www.linkedin.com/in/usman-khalid-21a656343/" target="_blank"><i class="bx bxl-linkedin"></i></a>&nbsp;&nbsp;&nbsp;

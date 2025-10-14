@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCode,
-  faFile,
+  faRobot,
   faDatabase,
   faGears,
 } from "@fortawesome/free-solid-svg-icons";
@@ -27,9 +27,9 @@ function Skills() {
     },
     {
       id: 3,
-      icon: <FontAwesomeIcon icon={faFile} />,
-      title: "Data Entry",
-      description: "We ensure accurate and efficient data entry solutions.",
+      icon: <FontAwesomeIcon icon={faRobot} />,
+      title: "Gen AI",
+      description: "We create innovative solutions using Generative AI technologies.",
     },
     {
       id: 4,
@@ -41,9 +41,9 @@ function Skills() {
     {
       id: 5,
       icon: <FontAwesomeIcon icon={faDatabase} />,
-      title: "MySQL",
+      title: "Databases",
       description:
-        "We manage and optimize MySQL databases for your Web  App",
+        "Manage and optimize your data with our database solutions.",
     },
     {
       id: 6,

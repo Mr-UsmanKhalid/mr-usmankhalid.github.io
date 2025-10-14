@@ -3,6 +3,7 @@ import Home from "./Home";
 import Skills from "./Skills";
 import About from "./About";
 import Projects from "./Projects";
+import Experience from "./Experience";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faHome, faCode, faBriefcase, faUser } from "@fortawesome/free-solid-svg-icons";
 import "./Styles/Navbar.css";
@@ -15,6 +16,7 @@ const Navbar = () => {
   const sections = {
     Home: Home,
     Skills: Skills,
+    Experience: Experience,
     Projects: Projects,
     About: About,
   };
@@ -97,6 +99,12 @@ const Navbar = () => {
             <a href="#Skills">
               <FontAwesomeIcon icon={faCode} />
               <span>Skills</span>
+            </a>
+          </li>
+          <li className={currentSection === "Experience" ? "active" : ""} onClick={(e) => scrollToSection(e, "Experience")}>
+            <a href="#Experience">
+              <FontAwesomeIcon icon={faBriefcase} />
+              <span>Experience</span>
             </a>
           </li>
           <li className={currentSection === "Projects" ? "active" : ""} onClick={(e) => scrollToSection(e, "Projects")}>

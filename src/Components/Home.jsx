@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Styles/Home.css";
 import profile from "../Assets/user.png"
 function Home() {
-  const roles = ["Generative AI", "N8N Automation", "Front-End Developer", "App Developer"];
+  const roles = ["Generative AI", "N8N Automation", "Full Stack Developer", "Front-End Developer", "App Developer"];
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);

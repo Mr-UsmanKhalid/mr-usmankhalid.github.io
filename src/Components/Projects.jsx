@@ -70,7 +70,7 @@ function Projects() {
       title: "DigiLawyer",
       description:
         "DigiLawyer is a legal website that provides legal services to users...",
-      Link: "https://github.com/Mr-UsmanKhalid/DigiLawyer", 
+      Link: "https://github.com/Mr-UsmanKhalid/Digilawyer-Landing-Page", 
     },
     {
       id: 6,

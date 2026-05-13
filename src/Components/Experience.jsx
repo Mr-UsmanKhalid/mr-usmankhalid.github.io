@@ -64,6 +64,16 @@ const Experience = () => {
       category: "Generative AI & N8N Automation",
       projects: [
         {
+          title: "AI Powered Facebook Auto-Reply Bot",
+          year: "2026",
+          description: `Built an AI-powered Facebook Auto-Reply Bot using Python, Flask, and Facebook Graph API.
+          The bot automatically replies to Messenger messages, detects comments, and sends instant DMs using keyword matching and AI responses.
+          Integrated Groq AI, Google Sheets, and deployed the project on Vercel for real-time automation.
+`,
+          visit:
+            "https://github.com/Mr-UsmanKhalid/Auto-Reply-Agent-FB",
+        },
+        {
           title: "Personal AI Chat Assistant",
           year: "2025",
           description: `An AI Chat Assistant using LangChain, Python, and Groq.

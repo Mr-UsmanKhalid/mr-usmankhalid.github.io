@@ -10,6 +10,7 @@ import projectimage4 from "../Assets/quote.png";
 import projectimage5 from "../Assets/DigiLawyer-1.png";
 import projectimage6 from "../Assets/Aura_Watches.png";
 import projectimage7 from "../Assets/N8N_video_work_flow.png";
+import projectimage10 from "../Assets/Auto-ReplyBot.png";
 
 function Projects() {
   const scrollRef = useRef(null);
@@ -24,6 +25,14 @@ function Projects() {
   };
 
   const projects = [
+     {
+      id: 0,
+      image: projectimage10,
+      title: "AI Powered Facebook Auto-Reply Bot",
+      description:
+        "Built an AI-powered Facebook Auto-Reply Bot for automated Messenger and comment replies in real time.",
+      Link: "https://github.com/Mr-UsmanKhalid/Auto-Reply-Agent-FB",
+    },
     {
       id: 1,
       image: projectimage0,
@@ -33,7 +42,14 @@ function Projects() {
       Link: "https://mr-usmankhalid-ai-chat-assistant.streamlit.app/",
     },
     {
-      id: 1,
+      id: 2,
+      image: projectimage7,
+      title: "Avatar Video Generator & YouTube Uploader",
+      description: "🧠 Avatar Video Generator & YouTube Uploader (n8n Workflow)",
+      Link: "https://github.com/Mr-UsmanKhalid/N8N_Avatar_Video_Generator",
+    },
+    {
+      id: 3,
       image: projectimage1,
       title: "Aptech Application",
       description:
@@ -41,7 +57,7 @@ function Projects() {
       Link: "https://github.com/Mr-UsmanKhalid/Aptech-Application-Project",
     },
     {
-      id: 2,
+      id: 4,
       image: projectimage2,
       title: "Web Design Demo",
       description:
@@ -49,7 +65,7 @@ function Projects() {
       Link: "https://github.com/Mr-UsmanKhalid/Car-front-end-Web-Design",
     },
     {
-      id: 3,
+      id: 5,
       image: projectimage3,
       title: "Personal Portfolio",
       description:
@@ -57,7 +73,7 @@ function Projects() {
       Link: "https://github.com/Mr-UsmanKhalid/Responsive-Portfolio-With-React",
     },
     {
-      id: 4,
+      id: 6,
       image: projectimage4,
       title: "Random Quote App",
       description:
@@ -65,7 +81,7 @@ function Projects() {
       Link: "https://github.com/Mr-UsmanKhalid/Random-Quote-App",
     },
     {
-      id: 5,
+      id: 7,
       image: projectimage5,
       title: "DigiLawyer",
       description:
@@ -73,18 +89,11 @@ function Projects() {
       Link: "https://github.com/Mr-UsmanKhalid/Digilawyer-Landing-Page", 
     },
     {
-      id: 6,
+      id: 8,
       image: projectimage6,
       title: "Aura Watch E-Commerce",
       description: "An e-commerce platform for luxury watches.",
       Link: "https://aura-watches.vercel.app/",
-    },
-    {
-      id: 7,
-      image: projectimage7,
-      title: "Avatar Video Generator & YouTube Uploader",
-      description: "🧠 Avatar Video Generator & YouTube Uploader (n8n Workflow)",
-      Link: "https://github.com/Mr-UsmanKhalid/N8N_Avatar_Video_Generator",
     }
   ];
 

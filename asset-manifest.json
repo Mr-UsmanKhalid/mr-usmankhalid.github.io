@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.d738ca3a.css",
-    "main.js": "/static/js/main.3d940fb6.js",
+    "main.css": "/static/css/main.d9c4b351.css",
+    "main.js": "/static/js/main.2030cd54.js",
+    "static/media/car-breezy.png": "/static/media/car-breezy.76528d463c93acd85d2a.png",
     "static/media/Aura_Watches.png": "/static/media/Aura_Watches.a95b9ea77bd35410ac96.png",
     "static/media/Auto-ReplyBot.png": "/static/media/Auto-ReplyBot.439289a6311014950965.png",
     "static/media/Aptech_Appliaction_Screens.png": "/static/media/Aptech_Appliaction_Screens.5351984caf497958396b.png",
+    "static/media/yZ.png": "/static/media/yZ.9596ca300529aae27fef.png",
     "static/media/Car_Website.png": "/static/media/Car_Website.5038c4dce7e305a650bc.png",
     "static/media/user.png": "/static/media/user.0e641cdb502a4aefa9fa.png",
     "static/media/MyPortfolio.png": "/static/media/MyPortfolio.9420d09ab38b20519c9d.png",
@@ -14,11 +16,11 @@
     "static/media/Personal_AI_Chat_Assistant.png": "/static/media/Personal_AI_Chat_Assistant.f55013e72565db640b93.png",
     "static/media/quote.png": "/static/media/quote.b87a0af2a98cf4d39ebd.png",
     "index.html": "/index.html",
-    "main.d738ca3a.css.map": "/static/css/main.d738ca3a.css.map",
-    "main.3d940fb6.js.map": "/static/js/main.3d940fb6.js.map"
+    "main.d9c4b351.css.map": "/static/css/main.d9c4b351.css.map",
+    "main.2030cd54.js.map": "/static/js/main.2030cd54.js.map"
   },
   "entrypoints": [
-    "static/css/main.d738ca3a.css",
-    "static/js/main.3d940fb6.js"
+    "static/css/main.d9c4b351.css",
+    "static/js/main.2030cd54.js"
   ]
 }

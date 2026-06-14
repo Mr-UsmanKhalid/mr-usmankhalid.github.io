@@ -29,7 +29,7 @@ const About = () => {
         
         <div className="about-buttons">
           <a className="hire-me" onClick={handleHireMeClick} >Hire Me</a>
-          <a  href="https://drive.google.com/file/d/1kQJrDfhbB8E8qNcLxHk_V-z6aCVvfgut/view?usp=sharing" target="blank" className="download-cv">Download CV</a>
+          <a  href="https://drive.google.com/file/d/1cC1Y1-f84YV2rCFwO-3VBGodiL5FK-rE/view?usp=drive_link" target="blank" className="download-cv">Download CV</a>
         </div>
       </div>
     </div>

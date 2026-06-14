@@ -348,3 +348,61 @@
     padding: 6px;
   }
 }
+
+/* =========================
+   TOOLS / TECH STACK
+========================= */
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.tool-badge {
+  background: #000000;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 30px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.tool-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(61, 124, 240, 0.4);
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 768px) {
+  .tools {
+    gap: 6px;
+  }
+
+  .tool-badge {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 480px) {
+  .tools {
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .tool-badge {
+    font-size: 9px;
+    padding: 4px 8px;
+  }
+}

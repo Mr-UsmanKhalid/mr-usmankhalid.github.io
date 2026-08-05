@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d9c4b351.css",
-    "main.js": "/static/js/main.2030cd54.js",
+    "main.js": "/static/js/main.0f118f87.js",
     "static/media/car-breezy.png": "/static/media/car-breezy.76528d463c93acd85d2a.png",
     "static/media/Aura_Watches.png": "/static/media/Aura_Watches.a95b9ea77bd35410ac96.png",
     "static/media/Auto-ReplyBot.png": "/static/media/Auto-ReplyBot.439289a6311014950965.png",
@@ -17,10 +17,10 @@
     "static/media/quote.png": "/static/media/quote.b87a0af2a98cf4d39ebd.png",
     "index.html": "/index.html",
     "main.d9c4b351.css.map": "/static/css/main.d9c4b351.css.map",
-    "main.2030cd54.js.map": "/static/js/main.2030cd54.js.map"
+    "main.0f118f87.js.map": "/static/js/main.0f118f87.js.map"
   },
   "entrypoints": [
     "static/css/main.d9c4b351.css",
-    "static/js/main.2030cd54.js"
+    "static/js/main.0f118f87.js"
   ]
 }

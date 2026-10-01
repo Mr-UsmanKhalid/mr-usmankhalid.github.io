@@ -13,6 +13,7 @@ import projectimage7 from "../Assets/N8N_video_work_flow.png";
 import projectimage10 from "../Assets/Auto-ReplyBot.png";
 import carbreezy from "../Assets/car-breezy.png";
 import yzshopImage from "../Assets/yZ.png"
+import ft from "../Assets/FitnessTracker.png"
 
 function Projects() {
   const scrollRef = useRef(null);
@@ -27,6 +28,16 @@ function Projects() {
   };
 
   const projects = [
+     {
+      id: 11,
+      image: ft,
+      title: "Fitness Tracker",
+      description:
+        "A modern fitness tracking application built with React and Node.js.",
+      tools: ["MERN", "Redux","JWT","Rest API"],
+      Link:  "https://github.com/Mr-UsmanKhalid/Fitness-Tracker",
+    },
+
     {
       id: 0,
       image: projectimage10,

@@ -45,6 +45,13 @@ const Experience = () => {
           description:
             "A complete MERN Stack E-commerce website for laptops, mobiles, and accessories. Includes both admin and user dashboards with responsive design.",
           visit: "https://yz-shop.vercel.app/",
+        }, 
+        {
+          title: "Fitness Tracker",
+          year: "2026",
+          description:
+            "A modern fitness tracking application built with React and Node.js. It allows users to log workouts, track progress, and view statistics in a user-friendly interface.",
+          visit: "https://fitness-tracker-one-pi.vercel.app/",
         },
       ],
     },
